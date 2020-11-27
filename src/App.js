@@ -67,9 +67,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-/*
-<Cards data={this.state.data}/>
-              <Choose handleCountryChange={this.handleCountryChange()}/>
-              <Chart />
-*/
