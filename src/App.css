@@ -1,38 +1,101 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headerPage {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.headerPage h2{
+  font-size: 50px;
+}
+
+.homePic {
+  width: 30px;
+  animation-name: myAnimation;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes myAnimation {
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(360deg); }
+}
+
+.stopPic {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.header {
+  margin-top: 1rem;
+}
+
+.dp {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilePage {
+  margin-top: 2rem;
+}
+
+.container404 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container404 h1 {
+  font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.infected {
+  border-bottom: 10px solid rgba(0,0,255,0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recovered {
+  border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.cardContainer {
+  margin: 30px 0;
+}
+
+.chartContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.aboutContent {
+  padding-top: 10px;
+}
+
+.formContainer {
+  width: 30%;
+  left: 33%;
+  text-align: center;
+}
+
+.white {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
