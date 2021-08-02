@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website tracks COVID-19 statistics throughout the world. You can view data for any country in the world, or view the data for the entire world. You can sign in to have the website personalized.
 
 ## Available Scripts
 
