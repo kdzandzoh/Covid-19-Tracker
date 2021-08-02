@@ -1,4 +1,8 @@
+# Covid 19 Tracker
 This website tracks COVID-19 statistics throughout the world. You can view data for any country in the world, or view the data for the entire world. You can sign in to have the website personalized.
+
+## Demo
+![](Covid19Demo.gif)
 
 ## Available Scripts
 
